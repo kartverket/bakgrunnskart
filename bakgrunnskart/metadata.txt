@@ -1,0 +1,15 @@
+[general]
+name=Bakgrunnskart
+qgisMinimumVersion=3.22
+version=1.0.0
+author=Tom-Erik Bakkely Aasheim
+email=tom-erik.aasheim@kartverket.no
+description=Legg til åpne WMTS-tjenester fra Kartverket/Geonorge via en enkel katalog.
+about=Plugin som viser en liste med Kartverket/Geonorge WMTS-tjenester, lar deg velge bakgrunnskart og tilesets fra GetCapabilities, og legger valgte lag inn i QGIS i en egen gruppe.
+category=Web
+icon=icon_bakgrunnskart.svg
+changelog=https://github.com/tompreik-kv/bakgrunnskart/releases
+homepage=https://github.com/tompreik-kv/bakgrunnskart
+tracker=https://github.com/tompreik-kv/bakgrunnskart/issues
+repository=https://github.com/tompreik-kv/bakgrunnskart
+tags=WMS,WMTS,Geonorge,Kartverket
