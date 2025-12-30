@@ -1,6 +1,6 @@
 # Bakgrunnskart (QGIS-plugin)
 
-**Bakgrunnskart** er en enkel QGIS-plugin som gir en liten “katalog” over utvalgte, åpne bakgrunnskart fra Kartverket/Geonorge (primært WMTS-cache).  
+**Bakgrunnskart** er en enkel QGIS-plugin som gir en liten “katalog” over utvalgte, åpne bakgrunnskart fra Kartverket/Geonorge.  
 Du velger et kart, ser forhåndsvisning og beskrivelse, velger ønsket tilesett (f.eks. UTM 32/33/35 eller WebMercator), og legger kartet inn i prosjektet.
 
 ## Funksjoner
@@ -11,14 +11,26 @@ Du velger et kart, ser forhåndsvisning og beskrivelse, velger ønsket tilesett 
 - Søkefelt for å filtrere tjenestelista
 - Legger inn valgt kart i en egen gruppe i lagpanelet: `Bakgrunnskart`
 
-## Tjenester (foreløpig)
+## Tjenester
 
+- Fjellskygge
 - Flybilder _(OBS! Fjernes 1. mars 2026)_
 - Forenklet europakart
+- Norges grunnkart
+- Norges grunnkart gråtone
+- Sjøkart
 - Topografisk gråtonekart
 - Topografisk norgeskart
 - Topografisk rasterkart
-- Sjøkart
+- Økonomisk kartverk
+
+## Krav
+
+- QGIS >= 3.22
+- Testet på:
+  - QGIS 3.40.x (Qt5)
+  - QGIS 3.44.6 (Qt 6.8.1)
+- GDAL/OGR følger med QGIS (pluginen bruker `ogr2ogr` fra QGIS-installasjonen)
 
 ## Installering (fra ZIP)
 

@@ -1,3 +1,19 @@
+## [1.1.0] - 2025-12-30
+
+### Added
+
+- Compatibilityhelpers for Qt5/Qt6 (QDialog, QMessageBox, QProcess).
+- Added more maps; Fjellskygge, Norges grunnkart, Norges grunnkart gråtone and Økonomisk kartverk
+
+### Changed
+
+- Enhanced internal compatibilitylogic (helpers) to support QGIS 3.x (Qt5) and QGIS 3.44+ (Qt6) without change of code.
+- Optimized previewimages and thumbimages.
+
+### Fixed
+
+- Qt6-compatibility: updateted dialogcodes, QMessageBox-buttons and QProcess-enums so that the pluging works in both Qt5 and Qt6.
+
 ## [1.0.0] - 2025-12-21
 
 ### Added
