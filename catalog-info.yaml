@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bakgrunnskart
+  title: Bakgrunnskart
+  tags:
+    - public
+spec:
+  type: library
+  owner: group:default/kartdata
+  lifecycle: production
