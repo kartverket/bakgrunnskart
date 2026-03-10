@@ -1,3 +1,24 @@
+## [1.2.0] - 2026-03-10
+
+### Added
+
+- Added a search field to the background map picker.
+- Added Sentinel-2 as a new background map service.
+
+### Changed
+
+- Updated the plugin icon to improve visibility across different QGIS themes, including dark theme.
+- Moved the repo over to Kartverket/National Mapping Authority of Norway official GitHub-account.
+
+### Removed
+
+- Removed the Flybilder service for now, so the plugin currently only includes open data services.
+- Removed the Forenklet europakart service, as it is no longer a public service.
+
+### Notes
+
+- Support for Flybilder/Norge i bilder is being investigated for a future release.
+
 ## [1.1.0] - 2025-12-30
 
 ### Added

@@ -14,10 +14,9 @@ Du velger et kart, ser forhåndsvisning og beskrivelse, velger ønsket tilesett 
 ## Tjenester
 
 - Fjellskygge
-- Flybilder _(OBS! Fjernes 1. mars 2026)_
-- Forenklet europakart
 - Norges grunnkart
 - Norges grunnkart gråtone
+- Satelittbilder - Sentinel-2
 - Sjøkart
 - Topografisk gråtonekart
 - Topografisk norgeskart
